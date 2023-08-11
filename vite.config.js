@@ -1,0 +1,10 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable no-multiple-empty-lines */
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  preview: { open: true },
+});
